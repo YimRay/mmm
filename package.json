@@ -5,16 +5,9 @@
   "scripts": {
     "start": "candy-script start",
     "build": "candy-script build",
-    "deploy": "gh-pages -d dist",
-    "analyzer": "candy-script analyzer",
-    "commit": "git-cz && git push",
-    "release": "standard-version",
-    "release:alpha": "standard-version --prerelease alpha",
-    "release:rc": "standard-version --prerelease rc",
-    "release:major": "pnpm run release -- --release-as major",
-    "release:minor": "pnpm run release -- --release-as minor",
-    "release:patch": "pnpm run release -- --release-as patch"
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "http://YimRay.github.io/mmm",
   "keywords": [],
   "author": "吴胤瑞",
   "license": "MIT",
@@ -52,6 +45,6 @@
       "prettier --write",
       "eslint --fix"
     ]
-  },
-  "homepage": "http://YimRay.github.io/mmm"
+  }
+  
 }
